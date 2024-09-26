@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial 
+    scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?
+family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;
+0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Whisper&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+<body>
+    <Section class="header">
+        <nav>
+            <a href="index.html"><img src="images/Logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav>
+
+<div class="text-box">
+    <h1> World's Biggest University</h1>
+    <p>Making yourself successfull is never the easiest thing in the world. <br>just need to prepare
+        yourself to overcome the obstacles. 
+    </p>
+    <a href="" class="hero-btn">visit us to know more</a>
+</div>
+
+</Section>
+
+<!-- -----course------- -->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <P>Love, family, and loyalty are all strong themes throughout.</P>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>intermediate</h3>
+            <P>A man who is given the gift of time learns that it is precious, and that every moment spent with his loved ones counts. Love, family, and loyalty are all strong themes throughout.
+               The idea that one can find beauty in the small moments of every day is reinforced.</P>
+        </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <P>A man who is given the gift of time learns that it is precious, and that every moment spent with his loved ones counts. Love, family, and loyalty are all strong themes throughout.
+                   The idea that one can find beauty in the small moments of every day is reinforced.</P>
+            </div>
+                <div class="course-col">
+                    <h3>Postgraduation</h3>
+                    <P>A man who is given the gift of time learns that it is precious, and that every moment spent with his loved ones counts. Love, family, and loyalty are all strong themes throughout.
+                       The idea that one can find beauty in the small moments of every day is reinforced.</P>
+                </div>
+        </div>
+</section>
+
+<!-- -----campus----- -->
+
+<section class="campus">
+    <h1>Our global campus</h1>
+    <p>Love, family, and loyalty are all strong themes throughout.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/Image 1.png.jpeg">
+            <div class="layer">
+                <h3>LONDON</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/Image 3.png.jpg ">
+            <div class="layer">
+                <h3>RIO</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="images/Image 7.png.jpeg">
+            <div class="layer">
+                <h3>PARIS</h3>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+<!-- ------Facilities------ -->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Love, family, and loyalty are all strong themes throughout.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="Images/Image 4.png.jpg">
+                <h3>ROME</h3>
+                <p>The idea that one can find beauty in the small moments of every day is reinforced.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/Image 5.png.webp">
+                <h3>Taj Mahal</h3>
+                <p>The idea that one can find beauty in the small moments of every day is reinforced.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="Images/Image 6.png.jpg">
+                <h3>Egypt</h3>
+                <p>The idea that one can find beauty in the small moments of every day is reinforced.</p>
+        </div>
+    </div>
+
+ 
+</section>
+
+
+<!-- ----------testimonials-------- -->
+
+<section class="testimonials">
+    <h1>What our student says</h1>
+    <p>Love, family, and loyalty are all strong themes throughout.</p>
+
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="Images/Image 8.png.avif">
+        </div>
+        <div>
+        <p>A man who is given the gift of time learns that it is precious, and that every moment spent with his loved ones counts. Love, family, and loyalty are all strong themes throughout.
+            The idea that one can find beauty in the small moments of every day is reinforced.</p>
+            <h3>Magnus</h3>
+        </div>
+        <div class="testimonial-col"></div>
+            <img src="Images/Image 9.png.webp">
+        </div>
+        <div>
+        <p>A man who is given the gift of time learns that it is precious, and that every moment spent with his loved ones counts. Love, family, and loyalty are all strong themes throughout.
+            The idea that one can find beauty in the small moments of every day is reinforced.</p>
+            <h3>Opus</h3>
+        </div>
+    </div>
+
+</section>
+
+<!-- -----javascript for toggle menu--------- -->
+
+
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+    </script>
+</body>
+</html>
